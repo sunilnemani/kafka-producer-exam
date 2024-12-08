@@ -12,7 +12,7 @@ public class KafkaMessagePublisherService
 {
 	
 //	private static final Logger log = LoggerFactory.getLogger(KafkaMessagePublisherService.class);
-	
+		
 	@Autowired
 	private KafkaTemplate<String, Consumer> kafkaTemplate;
 	

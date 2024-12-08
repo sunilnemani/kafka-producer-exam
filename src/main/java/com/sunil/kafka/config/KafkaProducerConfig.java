@@ -52,7 +52,7 @@ public class KafkaProducerConfig
 	public NewTopic createNewConsumerTopic()
 	{
 		log.info("Creating topics");
-		return new NewTopic("consumer_topic", 3, (short) 1);
+		return new NewTopic("consumer_topic", 3, (short) 3);
 	}
 	
 	@Bean
